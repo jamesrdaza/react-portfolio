@@ -1,0 +1,75 @@
+@use "global.scss";
+
+nav {
+    position: fixed;
+    top: 10px;
+    display: flex;
+
+    width: 100%;
+    height: 50px;
+    opacity: 0.75;
+
+    transition: 0.3s;
+    z-index: 2;
+}
+
+nav:hover {
+    opacity: 1;
+}
+
+.nav-left {
+    height: 80%;
+    width: 50%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    opacity: 0.65;
+    transition: 0.5s;
+
+    background: linear-gradient(to right, global.$secondary-color 40%, #00000000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+    div {
+        margin-left: 5px;
+    }
+
+    #logo {
+        margin-left: 20px;
+        font-family: "Jetbrains Mono";
+        font-size: 25px;
+    }
+
+    .nav-item {
+        list-style: none;
+        display: inline-block;
+        margin: 0 8px 0 8px;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: inherit;
+
+    }
+
+    .nav-item a:hover {
+        color: global.$tertiary-color;
+        transition: 0.5s
+    }
+}
+
+.nav-left:hover {
+    background-position: left bottom;
+    opacity: 1;
+    color: global.$text-color;
+}
+
+.nav-right {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}

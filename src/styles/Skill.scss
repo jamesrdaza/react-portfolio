@@ -1,0 +1,49 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    z-index: 2;
+
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 255, 0.486);
+    backdrop-filter: blur(1px);
+    cursor: default;
+}
+
+.modalContent {
+    width: 400px;
+    height: 350px;
+}
+
+.closeModal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px 5px 0 0;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
