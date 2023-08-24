@@ -5,7 +5,7 @@ import "./styles/App.scss";
 
 function App() {
     return (
-        <div className="page-container">
+        <div className="page-container" id="home">
             <Navbar />
             <div className="hero-bg">
                 <img
@@ -26,13 +26,15 @@ function App() {
                         Problem-Solving
                     </p>
                 </i>
-                <div className="down-container">
-                    <FaAngleDown className="down" size={50} color="white" />
-                </div>
+                <a href="#about">
+                    <div className="down-container">
+                        <FaAngleDown className="down" size={50} color="white" />
+                    </div>
+                </a>
             </div>
             <section>
                 <div className="halfContent">
-                    <h1>About Me</h1>
+                    <h1 id="about">About Me</h1>
                     <p style={{ lineHeight: "2rem" }}>
                         Hi! and Welcome to my portfolio! I'm James Daza an
                         aspiring Software Engineer, student,
@@ -60,7 +62,7 @@ function App() {
             </section>
             <section>
                 <div className="content">
-                    <h1>Skills</h1>
+                    <h1 id="skills">Skills</h1>
                     <div className="skillContainer">
                         <Skill
                             name="Typescript"
@@ -73,7 +75,7 @@ function App() {
                             modal="I have utilized javascript to access the DOM as well as make API Calls on both clients and servers"
                         />
                         <Skill
-                            name="S/CSS"
+                            name="CSS"
                             url="./images/logos/css3.png"
                             modal=""
                         />
@@ -98,16 +100,31 @@ function App() {
                             modal=""
                         />
                         <Skill
-                            name="Solidity"
-                            url="./images/logos/solidity.png"
-                            modal="Solidity was used to implement the ERC-721 Token standard."
+                            name="Git"
+                            url="./images/logos/git.png"
+                            modal=""
+                        />
+                        <Skill
+                            name="Vim"
+                            url="./images/logos/vim.png"
+                            modal=""
+                        />
+                        <Skill
+                            name="React"
+                            url="./images/logos/react.png"
+                            modal=""
+                        />
+                        <Skill
+                            name="Svelte"
+                            url="./images/logos/svelte.png"
+                            modal=""
                         />
                     </div>
                 </div>
             </section>
             <section>
                 <div className="content">
-                    <h1>Projects</h1>
+                    <h1 id="projects">Projects</h1>
                     <div className="projectContainer">
                         <div className="project"></div>
                     </div>
