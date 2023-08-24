@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Project from "./components/Project";
 import Skill from "./components/Skill";
 import { FaAngleDown } from "react-icons/fa";
 import "./styles/App.scss";
@@ -126,7 +127,7 @@ function App() {
                 <div className="content">
                     <h1 id="projects">Projects</h1>
                     <div className="projectContainer">
-                        <div className="project"></div>
+                        <Project title="Bullet Journal" description="Bullet Journal Web App" displayURL="./images/projects/BuJo.png"/>
                     </div>
                 </div>
             </section>
