@@ -58,7 +58,11 @@ function App() {
                 </div>
                 <div
                     className="halfContent"
-                    style={{ gridColumn: "7 / span 5" }}
+                    style={{ 
+                        gridColumn: "7 / span 5",
+                        display: "flex",
+                        alignItems: "center",
+                    }}
                 >
                     <img src="./svgs/hello.svg" alt="Hello" />
                 </div>
