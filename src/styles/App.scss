@@ -21,6 +21,13 @@ html {
     grid-template-columns: repeat(12, 1fr);
 }
 
+.anchor {
+    display: block;
+    height: 60px;
+    margin-top: -60px;
+    visibility: hidden;
+}
+
 .hero-bg {
     position: relative;
     display: flex;
@@ -67,7 +74,7 @@ section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 
-    height: 100vh;
+    min-height: 100vh;
     grid-column: span 12;
 
     .content {
@@ -101,6 +108,13 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.projectContainer {
+    display: flex;
+    gap: 10px;
 }
 
 ::-webkit-scrollbar {

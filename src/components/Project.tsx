@@ -6,8 +6,9 @@ interface ProjectProps {
     title: string;
     description: string;
     displayURL: string;
+    modalDesc: string;
 }
-const Project = ({ title, description, displayURL }: ProjectProps) => {
+const Project = ({ title, description, displayURL, modalDesc }: ProjectProps) => {
     const [modalIsActive, setModalIsActive] = useState(false);
     
     function flipModalIsActive() {
@@ -22,10 +23,11 @@ const Project = ({ title, description, displayURL }: ProjectProps) => {
             </div>
             <div 
                 className="projectModal" 
-                style={{display: modalIsActive ? "block" : "none", }}
+                style={{display: modalIsActive ? "flex" : "none", }}
             >
                 <GrClose size={22} id="CloseModal" onClick={flipModalIsActive}/>
-                Test
+                <img src={displayURL} alt={title} width="500px" height="300px"/>
+                <p>{modalDesc}</p>
             </div>
     </>
     );

@@ -21,13 +21,14 @@ function App() {
                         style={{
                             fontFamily: "Jetbrains Mono",
                             fontSize: "20px",
+                            textAlign: "center"
                         }}
                     >
                         Software Engineering &#x2022; Programming &#x2022;
                         Problem-Solving
                     </p>
                 </i>
-                <a href="#about">
+                <a href="#landingAbout">
                     <div className="down-container">
                         <FaAngleDown className="down" size={50} color="white" />
                     </div>
@@ -35,6 +36,7 @@ function App() {
             </div>
             <section>
                 <div className="halfContent">
+                    <span className="anchor" id="landingAbout"></span>
                     <h1 id="about">About Me</h1>
                     <p style={{ lineHeight: "2rem" }}>
                         Hi! and Welcome to my portfolio! I'm James Daza an
@@ -63,6 +65,7 @@ function App() {
             </section>
             <section>
                 <div className="content">
+                    <span className="anchor" id="landingSkills"></span>
                     <h1 id="skills">Skills</h1>
                     <div className="skillContainer">
                         <Skill
@@ -127,10 +130,13 @@ function App() {
                 <div className="content">
                     <h1 id="projects">Projects</h1>
                     <div className="projectContainer">
-                        <Project title="Bullet Journal" description="Bullet Journal Web App" displayURL="./images/projects/BuJo.png"/>
+                        <Project title="Bullet Journal" description="Bullet Journal Web App" displayURL="./images/projects/BuJo.png" 
+                            modalDesc="I worked in a team with ten other students to create an online Bullet Journal while utilizing the agile process. We had three distinct sprints for our team and did daily standups, weekly team meetings, and retrospectives to gauge our efficacy during development. We had three main groups during development. We had designers who created lo-fi and hi-fi designs of the UI, front-end who created the elements of the website, and back-end, where I was, that would figure out how to store and query. We used indexedDB to store user data in local storage and passed our functions to the front-end team. After the initial setup, I transitioned into a more testing role setting up jest scripts to test our indexedDB database. Passing the test script was required for pull requests into our main git branch."     
+                        />
                     </div>
                 </div>
             </section>
+            <footer></footer>
         </div>
     );
 }
