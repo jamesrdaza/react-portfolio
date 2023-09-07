@@ -4,11 +4,10 @@ import { GrClose } from "react-icons/gr";
 
 interface ProjectProps {
     title: string;
-    description: string;
     displayURL: string;
     modalDesc: string;
 }
-const Project = ({ title, description, displayURL, modalDesc }: ProjectProps) => {
+const Project = ({ title, displayURL, modalDesc }: ProjectProps) => {
     const [modalIsActive, setModalIsActive] = useState(false);
     
     function flipModalIsActive() {
@@ -19,7 +18,6 @@ const Project = ({ title, description, displayURL, modalDesc }: ProjectProps) =>
             <div className="project" style={{display: modalIsActive ? "none" : "block"}} onClick={flipModalIsActive}>
                 <img src={displayURL} alt={title} />
                 <h3>{title}</h3>
-                <p>{description}</p>
             </div>
             <div 
                 className="projectModal" 
