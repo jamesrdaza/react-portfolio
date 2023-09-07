@@ -1,5 +1,15 @@
 @use "global.scss";
 
+@font-face {
+    font-family: "Jetbrains Mono";
+    src: local("Jetbrains Mono") url(./fonts/JetBrainsMono-Italic[wght].ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Jetbrains Mono";
+    src: local("Jetbrains Mono") url(./fonts/JetBrainsMono[wght].ttf) format("truetype");
+}
+
 body,
 html {
     width: 100%;
