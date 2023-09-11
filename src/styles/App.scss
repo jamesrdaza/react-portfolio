@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "Jetbrains";
-    src: local("Jetbrains Mono") url(./fonts/JetBrainsMono-Italic[wght].ttf) format("truetype");
+    src: url(../fonts/JetBrainsMono-Italic-VariableFont_wght.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Jetbrains";
-    src: local("Jetbrains") url(./fonts/JetBrainsMono[wght].ttf) format("truetype");
+    src: url(../fonts/JetBrainsMono-VariableFont_wght.ttf) format("truetype");
 }
 
 body,
@@ -20,7 +20,7 @@ html {
     overflow: overlay;
     overflow-x: hidden;
 
-    font-family: Jetbrains;
+    font-family: "Jetbrains";
 
     scroll-behavior: smooth;
 }
@@ -114,6 +114,7 @@ section {
 
         img {
             object-fit: cover;
+            width: 100%;
         }
     }
 }
