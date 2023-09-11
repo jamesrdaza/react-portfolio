@@ -1,12 +1,12 @@
 @use "global.scss";
 
 @font-face {
-    font-family: "Jetbrains";
+    font-family: "Jetbrains Mono";
     src: url(../fonts/JetBrainsMono-Italic-VariableFont_wght.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "Jetbrains";
+    font-family: "Jetbrains Mono";
     src: url(../fonts/JetBrainsMono-VariableFont_wght.ttf) format("truetype");
 }
 
@@ -20,7 +20,7 @@ html {
     overflow: overlay;
     overflow-x: hidden;
 
-    font-family: "Jetbrains";
+    font-family: "Jetbrains Mono";
 
     scroll-behavior: smooth;
 }
