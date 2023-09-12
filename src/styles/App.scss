@@ -90,7 +90,7 @@ section {
     .content {
         grid-column: 2 / span 10;
         color: white;
-        height: 80%;
+        min-height: 80%;
         width: 100%;
         margin: auto;
         opacity: 0;
@@ -103,7 +103,7 @@ section {
     .halfContent {
         grid-column: 2 / span 5;
         color: white;
-        min-height: 80%;
+        height: 80%;
         width: 100%;
         margin: auto;
         opacity: 0;
