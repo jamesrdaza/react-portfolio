@@ -5,12 +5,6 @@ const Navbar = () => {
         <nav>
             <div className="nav-left">
                 <div id="logo">
-                    {/* <img
-                        src="./images/logos/logo.png"
-                        alt="James Daza"
-                        height={40}
-                        width={40}
-                    /> */}
                     <i>JAMES DAZA</i>
                 </div>
                 <ul>
@@ -24,7 +18,7 @@ const Navbar = () => {
                         <a href="#landingSkills">SKILLS</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#projects">PROJECTS</a>
+                        <a href="#landingProjects">PROJECTS</a>
                     </li>
                 </ul>
             </div>

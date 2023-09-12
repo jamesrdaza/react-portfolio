@@ -73,3 +73,17 @@ nav:hover {
     justify-content: right;
     align-items: center;
 }
+
+@media only screen and (max-width: 800px) {
+    #logo {
+        display: none;
+    }
+
+    nav {
+        top: 0;
+    }
+
+    .nav-left {
+        margin: 0;
+    }
+}

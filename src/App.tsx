@@ -39,16 +39,19 @@ function App() {
                     <span className="anchor" id="landingAbout"></span>
                     <h1 id="about">About Me</h1>
                     <p style={{ lineHeight: "2rem" }}>
-                        Hi! and Welcome to my portfolio! I'm James Daza an
-                        aspiring Software Engineer, student,
-                        programming-enthusiast. I have various interests in
-                        fields such as, web development and
-                        blockchain-techonology. I'm driven and I am driven and
-                        passionate about computer science. I continuously expand
-                        my skill set and learn new technologies. In my spare
-                        time, I like to self-study. I also work efficiently and
-                        communicate effectively with others and thrive within a
-                        team environment. 
+                        Hi! and Welcome to my personal website and portfolio! 
+                        I'm James Daza an aspiring
+                        Software Engineer, student,
+                        and programming-enthusiast. I'm driven and 
+                        passionate about computer science and problem-sovling.
+                        One of my interests include
+                        web development. I have interests in both frontend and backend 
+                        technologies.
+                        I strive to continuously expand
+                        my skill set and learn various things from languages, to libraries, to frameworks. 
+                        A lot of this learning is in my spare time, I study and research to keep up with what's new and emerging,
+                        especially in web development.
+                        One of my current undertakings is that I am in the process of learning Rust.
                     </p>
                 </div>
                 <div
@@ -116,6 +119,7 @@ function App() {
             </section>
             <section>
                 <div className="content">
+                    <span className="anchor" id="landingProjects"></span>
                     <h1 id="projects">Projects</h1>
                     <div className="projectContainer">
                         <Project title="Bullet Journal" displayURL="./images/projects/BuJo.png" 

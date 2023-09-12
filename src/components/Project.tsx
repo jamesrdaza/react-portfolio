@@ -24,7 +24,7 @@ const Project = ({ title, displayURL, modalDesc }: ProjectProps) => {
                 style={{display: modalIsActive ? "flex" : "none", }}
             >
                 <GrClose size={22} id="CloseModal" onClick={flipModalIsActive}/>
-                <img src={displayURL} alt={title} width="500px" height="300px"/>
+                <img src={displayURL} alt={title} />
                 <p>{modalDesc}</p>
             </div>
     </>
