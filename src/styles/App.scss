@@ -103,7 +103,7 @@ section {
     .halfContent {
         grid-column: 2 / span 5;
         color: white;
-        height: 80%;
+        min-height: 80%;
         width: 100%;
         margin: auto;
         opacity: 0;
@@ -133,7 +133,8 @@ section {
 }
 
 footer {
-    height: 200px;
+    grid-column: span 12;
+    height: 150px;
 }
 
 ::-webkit-scrollbar {
