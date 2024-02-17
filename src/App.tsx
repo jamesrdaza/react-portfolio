@@ -110,8 +110,8 @@ function App() {
                             transitioned to a testing role, implementing Jest scripts to ensure the reliability of our 
                             indexedDB database. Successful completion of these tests was a prerequisite for merging pull 
                             requests into our main Git branch."
-                            link=""
-                            github=""
+                            link="https://cse110-sp21-group19.github.io/cse110-sp21-group19/"
+                            github="https://github.com/cse110-sp21-group19/cse110-sp21-group19"
                         />
                         <Project
                             title="Fotodumper"
