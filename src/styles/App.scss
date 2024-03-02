@@ -113,7 +113,9 @@ section {
         animation-fill-mode: forwards;
 
         img {
-            object-fit: cover;
+            margin-left: 40px;
+            margin-bottom: 30px;
+            object-fit: contain;
             width: 100%;
         }
     }
@@ -130,7 +132,6 @@ section {
 .projectContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 footer {
